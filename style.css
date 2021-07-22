@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: CassandaPU;
+    src: url('support/fonts/cassandraPU.ttf');
+}
+
+@font-face {
+    font-family: Autography;
+    src: url('support/fonts/Autography.otf');
+}
+
+@font-face {
+    font-family: Billmore;
+    src: url('support/fonts/Billmore.ttf');
+}
+
+@font-face {
+    font-family: Precious;
+    src: url('support/fonts/Precious.ttf');
+}
+
+@font-face {
+    font-family: HoneyScript;
+    src: url('support/fonts/HoneyScript-SemiBold.ttf');
+}
+
+.container-fluid:nth-of-type(1) {
+	background-image:
+			linear-gradient(180deg, rgba(13,249,120,0) 75%, rgba(255,255,255,1) 100%),
+            linear-gradient(0deg, rgba(13,249,120,0) 60%, rgba(255,255,255,1) 100%),
+            linear-gradient(90deg, rgba(13,249,120,0) 0%, rgba(255,255,255,1) 70%),
+            linear-gradient(270deg, rgba(13,249,120,0) 80%, rgba(255,255,255,1) 100%),
+			url('support/img/yvyfstlayer.JPG');
+	background-size: cover;
+	background-position: right top;
+	height: 100vh;
+}
+
+.greetingBig {
+    font-family: CassandaPU;
+    font-size: 13vh;
+    color: #f0a94d;
+    display: inline-block;
+    transform: skewY(-15deg);
+    position: relative;
+    top: 30vh;
+    opacity: 0
+}
+
+.greetingBigFrom {
+    font-family: CassandaPU;
+    font-size: 2vh;
+    color: #f0a94d;
+    opacity: 0;
+    display: inline-block;
+    transform: skewY(-15deg);
+    position: relative;
+    top: 20vh;
+}
+
+.container-fluid {
+    z-index: 10 !important;
+}
+
+#bottomBanner {
+    width: 20vw;
+    position: fixed;
+    opacity: 0.2;
+    z-index: -1;
+    bottom: -80vh
+}
+
+#topBanner {
+    width: 100vw;
+    opacity: 0.2;
+    height: 70vh;
+    position: fixed;
+    top: -70vh;
+    right: 0;
+    z-index: -1
+}
+
+.personalLetter {
+    font-family: Billmore;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.personalLetter2 {
+    font-family: Billmore;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+
+.msgHeaderName {
+    font-family:  HoneyScript;
+    font-size:  4em;
+    font-weight:  bold;
+}
+
+.msgHeaderMsg {
+    font-family:  HoneyScript;
+    font-size:  2.5em;
+    font-weight: normal;
+}
+
+
+.videoGreetings {
+    border-radius: 30px;
+    display: inline-block;
+    box-shadow: 0 0 50px gray;
+}
